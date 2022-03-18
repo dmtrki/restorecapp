@@ -1,0 +1,20 @@
+{
+  "src": "D:\_\REST\app",
+  "dir": {
+    "components": "D:\_\REST\app\components",
+    "layout": "D:\_\REST\app\layout",
+    "pages": "D:\_\REST\app\pages",
+    "store": "D:\_\REST\app\store"
+  },
+  "components": {
+    "atomicDesign": false,
+    "styleLang": "scss",
+    "scriptLang": "ts",
+    "componentApi": "compositionApi",
+    "detached": false,
+    "useIndex": false
+  },
+  "pages": {
+    "useIndex": false //https://github.com/armankuanysh/vgent
+  }
+}

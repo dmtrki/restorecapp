@@ -1,0 +1,39 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "nuxi dev --port=8888",
+    "build": "nuxi build",
+    "start": "node .output/server/index.mjs"
+  },
+  "devDependencies": {
+    "@vueuse/core": "^7.7.1",
+    "@vueuse/nuxt": "^7.7.1",
+    "nuxt-typed-router": "^1.1.1",
+    "nuxt3": "latest",
+    "sass": "1.49.7",
+    "sass-loader": "12.4.0",
+    "tslib": "^2.3.1",
+    "vgent": "^1.0.2",
+    "vue-types": "^4.1.1",
+    "watson-scss": "^1.0.6"
+  },
+  "dependencies": {
+    "@egjs/vue3-flicking": "^4.4.3",
+    "@formkit/nuxt": "^1.0.0-beta.6",
+    "@graphql-codegen/typescript": "^2.4.7",
+    "@headlessui/vue": "1.4.3",
+    "@heroicons/vue": "1.0.5",
+    "@pinia/nuxt": "0.1.8",
+    "@vuebits/bem": "^1.2.2",
+    "less": "^4.1.2",
+    "nexus": "^1.1.0",
+    "nuxt-graphql-client": "^0.0.7",
+    "pinia": "2.0.11",
+    "primevue": "^3.12.1",
+    "vant": "^3.4.5",
+    "vue3-touch-events": "^4.1.0"
+  },
+  "engines": {
+    "node": "^14.16.0 || ^16.11.0 || ^17.0.0"
+  }
+}
